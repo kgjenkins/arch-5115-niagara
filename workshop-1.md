@@ -5,7 +5,8 @@ Workshop 2021-08-30 by Keith Jenkins, GIS Librarian at Mann Library
 For help after this workshop, contact me at kgj2@cornell.edu  
 Or set up a Zoom appointment at https://guides.library.cornell.edu/gis/help
 
-Data for this workshop is located in the ["data" folder on Box](https://cornell.app.box.com/folder/144369172102)
+All the data and documentation for this workshop can be downloaded from:
+https://github.com/kgjenkins/arch-5115-niagara/archive/main.zip
 
 
 ## Some GIS Concepts
