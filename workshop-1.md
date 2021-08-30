@@ -3,10 +3,10 @@
 Workshop 2021-08-30 by Keith Jenkins, GIS Librarian at Mann Library
 
 For help after this workshop, contact me at kgj2@cornell.edu  
-Or set up a Zoom appointment at https://guides.library.cornell.edu/gis/help
+Or set up a Zoom appointment at <https://guides.library.cornell.edu/gis/help>
 
 All the data and documentation for this workshop can be downloaded from:
-https://github.com/kgjenkins/arch-5115-niagara/archive/main.zip
+<https://github.com/kgjenkins/arch-5115-niagara/archive/main.zip>
 
 
 ## Some GIS Concepts
@@ -15,7 +15,7 @@ https://github.com/kgjenkins/arch-5115-niagara/archive/main.zip
 
 "GIS data" refers to data with a spatial component -- it can be mapped!
 
-**QGIS** (https://qgis.org/) is one of several popular GIS programs for mapping and spatial analysis.  It is free, open-source desktop software that runs on Windows, Mac, and Linux.  QGIS is created by developers around the world, supported by municipal and national governments, corporations, user groups, and individual users.  Discussions about new features, bug fixes, and future directions happen on [e-mail lists](https://qgis.org/en/site/getinvolved/mailinglists.html) and the [project's GitHub organization](https://github.com/qgis).
+**QGIS** (<https://qgis.org/>) is one of several popular GIS programs for mapping and spatial analysis.  It is free, open-source desktop software that runs on Windows, Mac, and Linux.  QGIS is created by developers around the world, supported by municipal and national governments, corporations, user groups, and individual users.  Discussions about new features, bug fixes, and future directions happen on [e-mail lists](https://qgis.org/en/site/getinvolved/mailinglists.html) and the [project's GitHub organization](https://github.com/qgis).
 
 Questions about how to use QGIS are typically asked and answered on [GIS StackExchange](https://gis.stackexchange.com/).  If you google for QGIS questions, there is a good chance you'll end up finding the answer already there, so always be sure to search before asking a new question.
 
@@ -91,7 +91,7 @@ Save "mymap.qgz" to the folder that also contains your data -- for example, with
 
 ## Streets
 
-New York state also has a dataset of street centerlines -- one line per road, regardless of how many lanes it has.  This data has been clipped to the area around Niagara Falls and saved in a shapefile format, which is probably the most common geospatial data format found on the Internet, but the shapefile format dates from the early 1990s, which is why there are multiple component files (.shp, .dbf, .shx, .prj, and sometimes others).  To add a shapefile to QGIS, we just need to select the .shp file and QGIS will take care of the rest.  Shapefiles also have other quirks, mostly notably a 10-character limit for attribute names.  Learn more at http://switchfromshapefile.org/
+New York state also has a dataset of street centerlines -- one line per road, regardless of how many lanes it has.  This data has been clipped to the area around Niagara Falls and saved in a shapefile format, which is probably the most common geospatial data format found on the Internet, but the shapefile format dates from the early 1990s, which is why there are multiple component files (.shp, .dbf, .shx, .prj, and sometimes others).  To add a shapefile to QGIS, we just need to select the .shp file and QGIS will take care of the rest.  Shapefiles also have other quirks, mostly notably a 10-character limit for attribute names.  Learn more at <http://switchfromshapefile.org/>
 
 * Look in the 'nys-streets' folder, and drag the .shp file onto QGIS
 
