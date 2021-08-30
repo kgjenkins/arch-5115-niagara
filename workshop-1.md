@@ -193,10 +193,20 @@ One last trick, to set the focus of our map on the City of Niagara Falls, will b
 
 ## Explore other datasets
 
-The 'data' folder contains several other datasets that may be useful.  If we have time, we'll take a few minutes to explore those datasets.  OpenStreetMap is a major source of various types of data: streets, building footprints, points of commerce or tourism, schools, hospitals, railroads, waterways, and nearly everything else that can be mapped.  Where the data exists, it is usually of high quality, but not everything has been mapped.  Just because you find a bus stop point in one part of a city doesn't necessarily mean that all bus stops in that city have been mapped.  In some cases, OSM may have it's own version of features that are also available from other sources, including official government sources.  In other cases, there is no official open data, and OSM may be the best option.  Try opening both versions of the following datasets and compare them, looking at the geometry as well as the attributes.
+The 'data' folder contains several other datasets that have been compiled for this workshop.  If we have time, we'll take a few minutes to explore those datasets.  OpenStreetMap is a major source of various types of data: streets, building footprints, points of commerce or tourism, schools, hospitals, railroads, waterways, and nearly everything else that can be mapped.  Where the data exists, it is usually of high quality, but not everything has been mapped.  Just because you find a bus stop point in one part of a city doesn't necessarily mean that all bus stops in that city have been mapped.  In some cases, OSM may have it's own version of features that are also available from other sources, including official government sources.  In other cases, there is no official open data, and OSM may be the best option.  Try opening both versions of the following datasets and compare them, looking at the geometry as well as the attributes.
 
 * Streets: nys-streets/streets.shp vs openstreetmap/osm-roads.gpkg
 * Buildings: microsoft-buildings/ms_buildings_Niagara.shp vs openstreetmap/osm-buildings.gpkg
+
+Many other datasets can be found on the Internet.  Geolode is a searchable catalog of websites that offer free, open geospatial data:
+* <https://geolode.org/>
+
+If you don't find what you need there, try searching the web for combinations like:
+* niagara gis data
+* niagara shapefile
+* niagara shp
+
+Feel free to contact me at kgj2@cornell.edu for help finding geospatial data.
 
 
 ## Exporting your map to an image file
