@@ -54,7 +54,7 @@ But in the real world, you'll eventually run into CRS puzzles and problems, and 
 * EPSG:26918 = NAD83 / UTM zone 18N (meters)
 
 
-# Town Boundaries
+## Town Boundaries
 
 Counties in New York state are subdivided into towns and cities.  These administrative units cover the entire state, so you are always within a city or town in New York state.  The New York State GIS Clearinghouse provides various boundaries as part of their "Civil Boundaries" dataset.
 
@@ -84,12 +84,12 @@ To find out what CRS (coordinate reference system) is being used:
 * Right-click > Properties...  Source tab
 
 
-# Save your project!
+## Save your project!
 
 Save "mymap.qgz" to the folder that also contains your data -- for example, within the "QGIS-workshops" folder. That way, you can zip up or move the containing folder around while keeping your map and data intact. The .qgz project file contains your map styles and pointers to your data files, but not the data itself.
 
 
-# Streets
+## Streets
 
 New York state also has a dataset of street centerlines -- one line per road, regardless of how many lanes it has.  This data has been clipped to the area around Niagara Falls and saved in a shapefile format, which is probably the most common geospatial data format found on the Internet, but the shapefile format dates from the early 1990s, which is why there are multiple component files (.shp, .dbf, .shx, .prj, and sometimes others).  To add a shapefile to QGIS, we just need to select the .shp file and QGIS will take care of the rest.  Shapefiles also have other quirks, mostly notably a 10-character limit for attribute names.  Learn more at http://switchfromshapefile.org/
 
@@ -114,7 +114,7 @@ There are many options that can be configured to improve the appearance of the l
 * Turn off your road labels, since we'll use a basemap instead.
 
 
-# Basemaps via QuickMapServices
+## Basemaps via QuickMapServices
 
 Basemaps are web-based map images designed by professional cartographers who have already done the hard work of aggregating different data layers and customizing styles and labels to work at different zoom levels.  Basemaps are usually global in scope, although there are some that only focus on certain regions.  They can be used to add context to your map, or just to help confirm that your data is correctly aligned.  The QuickMapServices plugin makes this easy, but we need to install it first.
 
@@ -179,7 +179,7 @@ Now you should have a new layer of just the streets in the area you selected.  (
 * Ignore the other options, and click 'OK' to save.
 
 
-# Inverted Polygons to mask surrounding areas
+## Inverted Polygons to mask surrounding areas
 
 One last trick, to set the focus of our map on the City of Niagara Falls, will be to mask the areas outside the city.  The "inverted polygon" option will apply a style to the outside (rather than the inside) of a polygon.
 * Right-click the 'Cities_Towns' layer > Filter...
@@ -191,7 +191,7 @@ One last trick, to set the focus of our map on the City of Niagara Falls, will b
 * Click "Fill" to get to the option for setting the feature opacity, setting it around 65%
 
 
-# Exporting your map to an image file
+## Exporting your map to an image file
 
 To export the current map view to an image file:
 * Project menu > Import/Export > Export Map to Image...
@@ -200,7 +200,7 @@ To export the current map view to an image file:
 * Save as a .png file
 
 
-# Exporting your map to a PDF file
+## Exporting your map to a PDF file
 
 Exporting to PDF is useful if you are going to print your map, or if you want to do further work in a program like Inkscape or Adobe Illustrator.  The PDF will keep separate layers for each data layer.  Vector layers will remain vectors, and raster layers will remain raster.
 
@@ -208,7 +208,7 @@ Exporting to PDF is useful if you are going to print your map, or if you want to
 * Check the settings, especially the resolution if your map includes raster layers, including basemaps
 
 
-# Exporting data layers to a DXF file (for CAD software)
+## Exporting data layers to a DXF file (for CAD software)
 
 Architects often want to export GIS layers for use in a CAD program like Rhino or AutoCAD.  Since DXF is a vector format, only vector layers can be exported -- sorry, no basemaps!  When exporting to CAD, be sure to set an appropriate CRS for the exported data, which means a CRS based on meters or feet -- not degrees longitude/latitude.
 * Project menu > Import/Export > Export Project to DXF...
@@ -226,7 +226,7 @@ If you have data that extends beyond your area of interest, and don't want to ex
 
 
 
-# Coming next... on QGIS Workshop Day 2
+## Coming next... on QGIS Workshop Day 2
 
 * elevation data - pseudocolor, hillshades, and contours
 * extrating data from a webmap
