@@ -1,0 +1,96 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.20.2-Odense">
+  <identifier>SimplifiedStreetSegmentQrt</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Street Segment Simplified SHP - National Geospatial Data Asset (NGDA)</title>
+  <abstract>A vector line file of public/private streets compiled from orthoimagery and other sources that is attributed with street names, addresses, route numbers, routing attributes, and includes a related table of alternate/alias street names. If the purpose of using NYS Streets is for geocoding, the New York State Office of Information Technology Services (NYS ITS) has a publicly available geocoding service which includes the NYS Streets along with other layers. For more information about the geocoding service, please visit http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1278.
+
+A vector street layer suitable for use in a GIS.
+
+A vector line file of public/private streets compiled from orthoimagery and other sources that is attributed with street names, addresses, route numbers, routing attributes, and includes a related table of alternate/alias street names. If the purpose of using NYS Streets is for geocoding, the New York State Office of Information Technology Services (NYS ITS) has a publicly available geocoding service which includes the NYS Streets along with other layers. For more information about the geocoding service, please visit http://gis.ny.gov/gisdata/inventories/details.cfm?DSID=1278.
+
+A vector street layer suitable for use in a GIS.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>National Geospatial Data Asset</keyword>
+    <keyword>Transportation</keyword>
+    <keyword>NGDA</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>National Geospatial Data Asset</keyword>
+    <keyword>Transportation</keyword>
+    <keyword>NGDA</keyword>
+    <keyword>NGDA </keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address></address>
+      <city></city>
+      <administrativearea></administrativearea>
+      <postalcode></postalcode>
+      <country></country>
+    </contactAddress>
+    <name>NYS GIS Program Office</name>
+    <organization></organization>
+    <position></position>
+    <voice>518-242-5029</voice>
+    <fax></fax>
+    <email>its.sm.SAM.Maintenance@its.ny.gov</email>
+    <role>Point of contact</role>
+  </contact>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address></address>
+      <city></city>
+      <administrativearea></administrativearea>
+      <postalcode></postalcode>
+      <country></country>
+    </contactAddress>
+    <name></name>
+    <organization></organization>
+    <position></position>
+    <voice>(518) 242-5029</voice>
+    <fax></fax>
+    <email>its.sm.SAM.Maintenance@its.ny.gov </email>
+    <role>Point of contact</role>
+  </contact>
+  <links>
+    <link name="File Geodatabase Feature Class" type="Download" size="" format="" mimeType="" url="http://gis.ny.gov/gisdata/fileserver/?DSID=932&amp;file=SimplifiedStreets_shp.zip" description=""/>
+  </links>
+  <history>Data source: N/A</history>
+  <fees></fees>
+  <constraints type="Security constraints"></constraints>
+  <constraints type="Access">This data is provided under the standard CC0 agreement. https://creativecommons.org/publicdomain/zero/1.0/legalcode</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys>
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minx="-79.76197100000000262" maxy="45.01281000000000176" dimensions="2" crs="EPSG:4326" maxx="-71.85624699999999621" miny="40.49602900000000005" minz="0" maxz="0"/>
+    <temporal>
+      <period>
+        <start>2021-06-30T04:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
