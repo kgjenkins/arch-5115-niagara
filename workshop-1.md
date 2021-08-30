@@ -5,7 +5,7 @@ Workshop 2021-08-30 by Keith Jenkins, GIS Librarian at Mann Library
 For help after this workshop, contact me at kgj2@cornell.edu  
 Or set up a Zoom appointment at <https://guides.library.cornell.edu/gis/help>
 
-All the data and documentation for this workshop can be downloaded from:
+All the data and documentation for this workshop can be downloaded from:  
 <https://github.com/kgjenkins/arch-5115-niagara/archive/main.zip>
 
 
@@ -189,6 +189,14 @@ One last trick, to set the focus of our map on the City of Niagara Falls, will b
 * Click "Simple fill" and set the fill style to "Solid"
 * Set the Fill color and Stroke color to white
 * Click "Fill" to get to the option for setting the feature opacity, setting it around 65%
+
+
+## Explore other datasets
+
+The 'data' folder contains several other datasets that may be useful.  If we have time, we'll take a few minutes to explore those datasets.  OpenStreetMap is a major source of various types of data: streets, building footprints, points of commerce or tourism, schools, hospitals, railroads, waterways, and nearly everything else that can be mapped.  Where the data exists, it is usually of high quality, but not everything has been mapped.  Just because you find a bus stop point in one part of a city doesn't necessarily mean that all bus stops in that city have been mapped.  In some cases, OSM may have it's own version of features that are also available from other sources, including official government sources.  In other cases, there is no official open data, and OSM may be the best option.  Try opening both versions of the following datasets and compare them, looking at the geometry as well as the attributes.
+
+* Streets: nys-streets/streets.shp vs openstreetmap/osm-roads.gpkg
+* Buildings: microsoft-buildings/ms_buildings_Niagara.shp vs openstreetmap/osm-buildings.gpkg
 
 
 ## Exporting your map to an image file
