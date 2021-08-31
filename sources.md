@@ -40,3 +40,17 @@ In QGIS:
 Once it has finished loading, right-click the layer > Export > Save Features As...
   1. Save as format: GeoPackage
   2. Don't just type a filename, or who knows where it will go!  Always click the "..."
+
+
+Searching for GIS data
+======================
+
+  Many other datasets can be found online.  Geolode is a searchable catalog of websites that offer free, open geospatial data:
+  * <https://geolode.org/>
+
+  If you don't find what you need there, try searching the web for combinations like:
+  * niagara gis data
+  * niagara shapefile
+  * niagara shp
+
+  Feel free to contact me at kgj2@cornell.edu for help finding geospatial data.

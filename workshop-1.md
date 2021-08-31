@@ -198,16 +198,6 @@ The 'data' folder contains several other datasets that have been compiled for th
 * Streets: nys-streets/streets.shp vs openstreetmap/osm-roads.gpkg
 * Buildings: microsoft-buildings/ms_buildings_Niagara.shp vs openstreetmap/osm-buildings.gpkg
 
-Many other datasets can be found on the Internet.  Geolode is a searchable catalog of websites that offer free, open geospatial data:
-* <https://geolode.org/>
-
-If you don't find what you need there, try searching the web for combinations like:
-* niagara gis data
-* niagara shapefile
-* niagara shp
-
-Feel free to contact me at kgj2@cornell.edu for help finding geospatial data.
-
 
 ## Exporting your map to an image file
 
