@@ -117,7 +117,9 @@ That sets up the connection to the web service, which will now appear in the dro
 * Once you see a sub-item called "Image", select it
 * Click the "Add" button (at the bottom of the dialog)
 
-The imagery should appear on your map.  Note that various years only cover certain portions of the state.  Any layers with "cir" (like "2005 cir") in the name is color-infrared, so vegetation will appear red (which makes it easier to distinguish plants from water, structures, and pavement).  Notice that the name of the layer is simply "Image", which isn't very helpful, so you'll want to rename it now while you still remember what it represents.
+The imagery should appear on your map.  Note that various years only cover certain portions of the state.  (Niagara county was flown in 2002, 2005, 2008, 2011, 2014, and 2017.)
+
+Any layers with "cir" (like "2005 cir") in the name is color-infrared, so vegetation will appear red (which makes it easier to distinguish plants from water, structures, and pavement).  Notice that the name of the layer is simply "Image", which isn't very helpful, so you may want to rename it now while you still remember what it represents.
 
 * Right-click the Image layer > Rename to "Imagery 2008"
 
