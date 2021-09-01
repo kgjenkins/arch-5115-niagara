@@ -66,7 +66,7 @@ Change the layer style by opening the Layer Styling panel – colorful paintbrus
 * Click "Simple fill" to change other properties, like stroke color and width
 
 Get information about a polygon:
-* Click "Identify Features" tool, select the pollingplaces layer, then click a polygon
+* Click "Identify Features" tool, select the "Cities_Towns" layer, then click a polygon
 
 View information about all the polygons as a table:
 * Right-click layer in Layers pane > Open Attribute Table
@@ -237,5 +237,5 @@ If you have data that extends beyond your area of interest, and don't want to ex
 ## Coming next... on QGIS Workshop Day 2
 
 * elevation data - pseudocolor, hillshades, and contours
-* extrating data from a webmap
+* extracting data from a webmap
 * georeferencing scanned maps
