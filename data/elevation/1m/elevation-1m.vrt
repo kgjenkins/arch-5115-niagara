@@ -1,0 +1,63 @@
+<VRTDataset rasterXSize="2000" rasterYSize="3000">
+  <SRS dataAxisToSRSAxisMapping="1,2,3">COMPD_CS["unknown",PROJCS["NAD83(2011) / Conus Albers",GEOGCS["NAD83(2011)",DATUM["NAD83_National_Spatial_Reference_System_2011",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],AUTHORITY["EPSG","1116"]],PRIMEM["Greenwich",0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["latitude_of_center",23],PARAMETER["longitude_of_center",-96],PARAMETER["standard_parallel_1",29.5],PARAMETER["standard_parallel_2",45.5],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]],VERT_CS["NAVD88 height-Geoid12B (meters)",VERT_DATUM["North American Vertical Datum 1988",2005,AUTHORITY["EPSG","5103"]],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Gravity-related height",UP]]]</SRS>
+  <GeoTransform>  1.3630000001000001e+06,  1.0000000000000000e+00,  0.0000000000000000e+00,  2.3550000001000017e+06,  0.0000000000000000e+00, -1.0000000000000000e+00</GeoTransform>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">196.80198669434</MDI>
+      <MDI key="STATISTICS_MEAN">163.63849640294</MDI>
+      <MDI key="STATISTICS_MINIMUM">101.52159881592</MDI>
+      <MDI key="STATISTICS_STDDEV">24.960328164911</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <NoDataValue>-9999</NoDataValue>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">e1363n2352_2019.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="2000" xSize="1000" ySize="1000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">e1363n2353_2019.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="1000" xSize="1000" ySize="1000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">e1363n2354_2019.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">e1364n2352_2019.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="2000" xSize="1000" ySize="1000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">e1364n2353_2019.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="1000" xSize="1000" ySize="1000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+    <ComplexSource resampling="nearest">
+      <SourceFilename relativeToVRT="1">e1364n2354_2019.img</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1000" RasterYSize="1000" DataType="Float32" BlockXSize="64" BlockYSize="64" />
+      <SrcRect xOff="0" yOff="0" xSize="1000" ySize="1000" />
+      <DstRect xOff="1000" yOff="0" xSize="1000" ySize="1000" />
+      <NODATA>-9999</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
