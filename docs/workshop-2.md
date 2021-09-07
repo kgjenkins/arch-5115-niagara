@@ -9,7 +9,6 @@ All the data and documentation for this workshop can be downloaded from:
 <https://github.com/kgjenkins/arch-5115-niagara/archive/main.zip>
 
 * Unzip the files
-* Double-click the workshop2.qgz project to open it in QGIS (or else open it from within QGIS)
 
 
 ## Elevation raster data
