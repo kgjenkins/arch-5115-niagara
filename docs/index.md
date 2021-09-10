@@ -1,4 +1,5 @@
-QGIS workshops for ARCH 5115 (DuFour), focusing on Niagara Falls
+QGIS workshops for ARCH 5115 (DuFour), focusing on Niagara Falls \
+Fall 2021
 
 [Workshop 1](workshop-1)
 
