@@ -98,7 +98,7 @@ To export the 3D contours to DXF, right-click the layer > Export > Save features
 While the Google and Big satellite basemaps are easy to use, we can't tell what year the imagery is from.  Most states have some sort of imagery program in which various portions of the state are photographed each year, eventually resulting in a time series of imagery.  Generally speaking, for most states, this started happening in the 1990s or early 2000s.  Although there are older UDSA aerial photographs dating back to the 1930s, those images are often not readily available online, since significant work must be done to digitize, georeference, mosaic, and serve the images.
 
 For New York, the following URL points to a web service for a number of imagery sets for different years:
-* https://orthos.its.ny.gov/arcgis/rest/services/wms/
+* <https://orthos.its.ny.gov/arcgis/rest/services/wms/>
 
 If you open that link in a web browser, you'll see a list of the available layers.  We can add any of those layers to our map by connecting QGIS to that URL.
 
