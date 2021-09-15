@@ -87,7 +87,7 @@ There is a "contours" display style for rasters, but is just a visual effect.  I
 * Set the following parameters:
   * Input layer = "elevation-1m"
   * Interval between contour lines = 2m (this value should usually not be any less than the pixel size)
-  * Check the box to "Produce 3D vector"
+  * Check the box to "Produce 3D vector" (if you don't see it, expand the Advanced Parameters section)
 * Keep the other options and click "Run"
 
 To export the 3D contours to DXF, right-click the layer > Export > Save features as ... AutoCAD DXF or else export your whole project to DXF.
